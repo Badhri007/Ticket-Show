@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Previous Month Report | Ticket Show</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS for styling the report -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1 {
+            color: #007bff;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #009688;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+            list-style-type: none; /* Removed the bullet points */
+        }
+        li {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 5px;
+            line-height: 1.8; /* Increase spacing between list items */
+        }
+        .thank-you {
+            text-align: center;
+            font-size: 16px;
+            margin-top: 30px;
+            color: #6c757d;
+            border: 1px solid #ccc; /* Keep the border for "Thank You" section */
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f8f8f8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Previous Month Cinematic Adventure Report</h1>
+        <h2>Hello {{ user.username }},</h2>
+        <li><h4>We hope you had a fantastic month full of movie magic! Here's a summary of your movie ticket booking adventure:</h4></li>
+        <div> <!-- This div acts as the single box for the content -->
+            
+            <ul>
+                <li><h4>Shows Watched: <i style="color: #f44336;">{{ shows_watched }}</i></h4></li>
+                <li><h4>Total Tickets Booked: <i style="color: #e91e63;">{{ total_tickets_booked }}</i></h4></li>
+                <li><h4>Favorite Movie Genre: <i style="color: #9c27b0;">{{ favorite_genre }}</i></h4></li>
+                <li><h4>Favourite Cinema Hall: <i style="color: #673ab7;">{{ top_cinema_hall_name }}</i></h4></li>
+                <li><h4>Movie Marathoner: <i style="color: #3f51b5;">{{ movie_marathon_count }}</i></h4></li>
+            </ul>
+          
+        </div>
+        <li><h4>Thank you for using our Movie Ticket Booking app. We look forward to bringing you more cinematic delights in the future!</h4></li>
+      <p class="thank-you">Best regards,<br>The Ticket Show Team</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Theatre ID,Name,Venue Location,Venue Capacity,Show ID,Show Name,Show Rating,Show Timing,Show Tags,Show Price,Total Tickets,Booked Tickets
+1,Vijayan,Panruti,350,1,Moonfall,4,2022-08-22 02:30:00,Sci-fi,150,150,39
+1,Vijayan,Panruti,350,5,Maaveeran,3,2022-08-31 18:30:00,Comedy,100,150,24
+1,Vijayan,Panruti,350,7,Sivakasi,5,2023-07-23 18:30:00,Action,150,200,33
+2,IMAX,Neyveli,500,2,Avengers: EndGame,4,2023-07-30 21:30:00,Sci-Fi,100,200,24
+2,IMAX,Neyveli,500,6,JAILER,5,2023-09-20 02:30:00,Adventure,200,120,120
+3,Mayaajal,Marina,300,3,Avengers:Infinity war,4,2023-07-30 21:30:00,Sci-Fi,100,100,11
+3,Mayaajal,Marina,300,4,Mission Impossibles,4,2023-07-06 18:30:00,Action,180,80,31
+4,New Cinema,Cuddalore OT,270,9,Salaar,3,2023-10-10 10:40:00,Action adventure,340,120,69
+5,KG cinemas,Coimbatore,300,11,Ayalaan,5,2023-11-19 10:40:00,Sci-Fi Fantasy,130,200,26
+7,Kohli Cinedays,Salem,340,12,Chennai 600028,4,2023-07-31 23:00:00,Drama,60,128,7
